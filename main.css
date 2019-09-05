@@ -1,0 +1,33 @@
+body{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+form{
+	border: 3px solid;
+}
+
+h1{
+	text-align: center;
+}
+
+.login-box{
+	padding: 12px
+}
+
+input[type=text],input[type=password]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid;
+}
+
+button{
+	cursor: pointer;
+}
+
+table{
+	margin-right: auto;
+	margin-left: auto;
+}
